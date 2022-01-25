@@ -14,11 +14,11 @@ int main(void){
     //Código
     printf("Hello World!");
     printf("\n\nDigite um valor: ");
-    scanf("%d", a);
+    scanf("%d", &a);
     printf("\nDigite um segundo valor a ser somado: ");
-    scanf("%d", b);
+    scanf("%d", &b);
 
     //Saídas
-    printf("\nO resultado da soma de %d com %d é %d",a,b,soma(a,b)); 
-    printf("\nE o resultado da multiplicação é %d", multi(a,b));
+    printf("\nO resultado da soma de %d com %d eh %d",a,b,soma(a,b)); 
+    printf("\nE o resultado da multiplicacao eh %d", multi(a,b));
 }
