@@ -10,7 +10,7 @@ int multi(int a, int b){
 int main(void){
     //Variáveis
     int a,b,c;
-
+    int caralho;
     //Código
     printf("Hello World!");
     printf("\n\nDigite um valor: ");
